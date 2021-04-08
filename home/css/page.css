@@ -1,18 +1,16 @@
-font-family: 'Chango', cursive;
-font-family: 'Montserrat', sans-serif;
 body{
   background-color: #d96c94;
 }
 h1{
   font-family: 'Montserrat', sans-serif;
-  font-size:
-  padding:
+  font-size:;
+  padding:;
   color: #f2c2dc;
 }
 h2{
   font-family: 'Chango', cursive;
-  font-size:
-  padding:
+  font-size:;
+  padding:;
   color: white;
 }
 #title{
@@ -21,8 +19,8 @@ h2{
 a{
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
-  font-size:
-  padding:
+  font-size:;
+  padding:;
   color: #f2c2dc;
 }
 #links{
