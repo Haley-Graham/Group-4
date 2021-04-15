@@ -3,26 +3,64 @@ body{
 }
 h1{
   font-family: 'Montserrat', sans-serif;
-  font-size:;
-  padding:;
+  font-size: 80pt;
   color: #f2c2dc;
+  text-shadow: 4px 4px #d989cb, 8px 8px white;
+  margin-bottom: 0px;
 }
 h2{
   font-family: 'Chango', cursive;
-  font-size:;
-  padding:;
+  font-size:100pt;
   color: white;
+  margin-top: 20px;
+  white-space: nowrap;
 }
 #title{
-
+  margin: auto;
+  width: 85%;
+}
+#tamagotchi img {
+  width: 300px;
+  display: inline-block;
+  float: right;
+}
+#topstars img{
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.directory {
+  display: block;
+  margin: auto;
+  text-align: right;
+  padding: 10px;
+}
+#about_us img {
+  width: 60px;
+  float: right;
+  clear: both;
+}
+#dress_up img {
+  width: 60px;
+  float: right;
+  clear: both;
+}
+#checkout img {
+  width: 60px;
+  float: right;
+  clear: both;
+}
+#pen img {
+  width: 400px;
+  position: fixed;
+  bottom: 0;
+  left: 30px;
 }
 a{
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
-  font-size:;
-  padding:;
+  font-size:36pt;
+  padding:10px;
   color: #f2c2dc;
-}
-#links{
-
 }
