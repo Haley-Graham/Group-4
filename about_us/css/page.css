@@ -3,34 +3,73 @@ body{
 }
 h1{
   font-family: 'Chango', cursive;
-  font-size:;
-  padding:;
+  font-size: 80pt;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
   color: #adbf26;
 }
 h2{
   font-family: 'Chango', cursive;
-  font-size:;
-  padding:;
-  color: #adbf26;
+  font-size: 42px;
+  color: white;
+  display: block;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 h3{
   font-family: 'Montserrat', sans-serif;
-  font-size:;
-  padding:;
+  font-size: 24px;
   color: #adbf26;
+  display: block;
+  margin-left: 100px;
+  margin-right: 100px;
 
 }
 p{
   font-family: 'Montserrat', sans-serif;
-  font-size:;
-  padding:;
+  line-height: 2.6;
+  padding: 15px;
   color: #d96c94;
+  display: block;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+#dollz img{
+  width: 100%;
+}
+#haley img {
+  width: 200px;
+  float: right;
+  clear: both;
+}
+.directory {
+  display: block;
+  margin: auto;
+  text-align: right;
+  padding: 10px;
+}
+#home img {
+  width: 30px;
+  float: right;
+  clear: both;
+}
+#dress_up img {
+  width: 30px;
+  float: right;
+  clear: both;
+}
+#checkout img {
+  width: 30px;
+  float: right;
+  clear: both;
 }
 a{
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
-  font-size:;
-  padding:;
+  font-size: 18pt;
+  padding:10px;
   color: #d96c94;
 }
-#links{
