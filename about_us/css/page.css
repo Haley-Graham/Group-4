@@ -47,7 +47,7 @@ p{
 }
 #topstars img{
   width: 200px;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
 }
