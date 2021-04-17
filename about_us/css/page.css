@@ -40,15 +40,17 @@ p{
 #dollz img{
   width: 100%;
 }
-#haley img {
+/* #haley img {
   width: 200px;
   float: right;
   clear: both;
-}
+} */
 #kayla img {
   width: 200px;
-
+  margin-right: 100px;
   float: right;
+}
+#kayla {
   clear: both;
 }
 #topstars img{
