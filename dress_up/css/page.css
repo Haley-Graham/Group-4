@@ -1,0 +1,90 @@
+body{
+  background-color: white;
+}
+h1{
+  font-family: 'Chango', cursive;
+  font-size: 80pt;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  color: #f2c2dc;
+}
+h2{
+  font-family: 'Chango', cursive;
+  font-size:;
+  padding:;
+  color: white;
+  margin: auto;
+  width: 50%;
+}
+a{
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size:;
+  color: #f2c2dc;
+}
+.col-sm-5{
+  border: solid 1px white;
+  width:80%;
+}
+.col-sm-4{
+  display: block;
+  border: solid 10px white;
+  width: 30%;
+  background-color: #f2c2dc;
+  border-radius: 25px;
+}
+.directory {
+  display: block;
+  margin: auto;
+  text-align: right;
+  padding: 10px;
+}
+#home img {
+  width: 30px;
+  float: right;
+  clear: both;
+}
+#about_us img {
+  width: 30px;
+  float: right;
+  clear: both;
+}
+#checkout img {
+  width: 30px;
+  float: right;
+  clear: both;
+}
+.directory a{
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18pt;
+  padding:10px;
+  color: #adbf26;
+}
+#topstars img{
+  width: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#body img{
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.shirts img{
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.shirts img{
+  width: 100%;
+}
+#boxes{
+  border-radius: none;
+}
