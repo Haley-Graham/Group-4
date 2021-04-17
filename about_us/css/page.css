@@ -45,6 +45,24 @@ p{
   float: right;
   clear: both;
 } */
+#aimee img {
+  width: 200px;
+  margin-right: 100px;
+  float: right;
+}
+#aimee {
+  clear: both;
+}
+#aimee a {
+  font-family: 'Montserrat', sans-serif;
+  padding: none;
+  color: #d96c94;
+  display: block;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-weight: 700;
+  font-size: 12pt;
+}
 #kayla img {
   width: 200px;
   margin-right: 100px;
