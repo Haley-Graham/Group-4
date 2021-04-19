@@ -52,8 +52,8 @@ p{
 }
 #aimee img {
   width: 200px;
-  margin-left: 100px;
-  float: left;
+  margin-right: 100px;
+  float: right;
   border: 4px solid #adbf26;
 }
 #aimee {
@@ -82,8 +82,8 @@ p{
 }
 #ayline img {
   width: 200px;
-  margin-left: 100px;
-  float: left;
+  margin-right: 100px;
+  float: right;
   border: 4px solid #adbf26;
 }
 #ayline {
