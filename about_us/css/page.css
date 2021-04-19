@@ -1,58 +1,106 @@
-body {
-	background-color: #f2c2dc !important;
-
+body{
+  background-color: #f2c2dc;
 }
 h1{
   font-family: 'Chango', cursive;
   font-size: 80pt;
   text-align: center;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 0;
   color: #adbf26;
 }
-
 h2{
   font-family: 'Chango', cursive;
   font-size: 42px;
   color: white;
   display: block;
-  margin: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
-
 h3{
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 24px;
   color: #adbf26;
   display: block;
-}
+  margin-left: 100px;
+  margin-right: 100px;
 
+}
 p{
   font-family: 'Montserrat', sans-serif;
+  line-height: 2.6;
   padding: 15px;
   color: #d96c94;
   display: block;
-  margin: 50px
+  margin-left: 100px;
+  margin-right: 100px;
 }
-
 #dollz img{
   width: 100%;
-  margin-top: 20px;
 }
-
+#haley img {
+  width: 200px;
+  margin-right: 100px;
+  float: right;
+  border: 4px solid #adbf26;
+}
+#haley {
+  margin-bottom: 50px;
+  clear: both;
+}
+#aimee img {
+  width: 200px;
+  margin-left: 100px;
+  float: left;
+  border: 4px solid #adbf26;
+}
+#aimee {
+  margin-bottom: 50px;
+  clear: both;
+}
+#aimee a {
+  font-family: 'Montserrat', sans-serif;
+  padding: none;
+  color: #d96c94;
+  display: block;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-weight: 700;
+  font-size: 12pt;
+}
+#kayla img {
+  width: 200px;
+  margin-right: 100px;
+  float: right;
+  border: 4px solid #adbf26;
+}
+#kayla {
+  margin-bottom: 50px;
+  clear: both;
+}
+#ayline img {
+  width: 200px;
+  margin-left: 100px;
+  float: left;
+  border: 4px solid #adbf26;
+}
+#ayline {
+  clear: both;
+}
 #topstars img{
   width: 200px;
   position: absolute;
   top: 0;
   left: 0;
 }
-
-#home, #dress_up {
+.directory {
   display: block;
   margin: auto;
   text-align: right;
   padding: 10px;
 }
-
 #home img {
   width: 30px;
   float: right;
@@ -63,48 +111,15 @@ p{
   float: right;
   clear: both;
 }
-
-a {
-  text-decoration: none !important;
+#checkout img {
+  width: 30px;
+  float: right;
+  clear: both;
+}
+a{
+  text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   font-size: 18pt;
   padding:10px;
-  color: #d96c94 !important;
-}
-
-a:hover {
-  color: #adbf26 !important;
-}
-
-.col-lg-2 {
-  background-color: #6C60BF;
-  padding-top: 20px;
-  margin: 50px;
-}
-
-.colab_p {
-  color: white;
-  font-size: 10pt;
-  padding: 5px;
-  margin: 3px;
-}
-
-
-.haley_pic, .aimee_pic, .kayla_pic, .ayline_pic {
-  width: 100%
-}
-
-.top {
-	padding: 25px;
-	background-color: white;
-}
-
-#dollz {
-  padding: 25px;
-	background-color: #adbf26;
-}
-
-#aimee_portfolio {
-  font-size: 11pt;
-
+  color: #d96c94;
 }
