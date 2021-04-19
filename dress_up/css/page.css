@@ -1,11 +1,19 @@
-body{
-  background-color: white;
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+body {
+	line-height: 1;
+  background-color: #f2c2dc;
 }
+
 h1{
   font-family: 'Montserrat', sans-serif;
   font-size:;
   padding:;
-  color: #f2c2dc;
+  color: #adbf26;
   margin: auto;
   width: 50%;
 }
@@ -21,69 +29,82 @@ a{
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   font-size:;
-  color: #f2c2dc;
+  color: #adbf26;
 }
-.col-sm-5{
 
-  width:80%;
+#container {
+    position: absolute;
+    margin:auto;
+    width: 855px;
+    height :1087px;
+    bac
 }
-.col-sm-4{
-  display: block;
-  border: solid 10px white;
-  width: 30%;
-  background-color: #f2c2dc;
-  border-radius: 25px;
+
+#background{
+    position:absolute;
+    width:855px;
+    height:1087px;
+    left:100px;
+    right: 100px;
 }
-.col-sm-6{
-  display: block;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  color: pink;
+
+#man {
+    background-image: url("../img/a_body.png");
+    position:absolute;
+    width:755px;
+    height:1187px;
 }
-#directory{
-  position: absolute;
-  left:0;
-  display:block;
+
+#clothes {
+    position:absolute;
+    width:755px;
+    height:1187px;
 }
-#directory a{
-  color: #6c60bf;
+
+.pink_shirt {
+    background-image: url(../img/pink_shirt.png);
+    position:absolute;
+    width:755px;
+    height:1187px;
 }
-#body img{
-  display: block;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+
+.purple_shirt {
+    background-image: url(../img/purple_shirt.png);
+    position:absolute;
+    width:755px;
+    height:1187px;
 }
-.shirts img{
-  display: block;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+
+.yellow_shirt {
+    background-image: url(../img/yellow_shirt.png);
+    position:absolute;
+    width:755px;
+    height:1187px;
 }
-.shirts img{
-  width: 100%;
-}
-#boxes{
-  border-radius: none;
-}
-#closet_text h2{
-  color: #6c60bf;
-}
-.button{
-  background-color: #6c60bf;
-  color: white;
-}
-#black_shirt{
+
+.black_shirt {
+  background-image: url(../img/black_shirt.png);
   position:absolute;
-  width: 555px;
-  height:987px;
-  background-image: url(../img/black_shirt.PNG);
+  width:755px;
+  height:1187px;
 }
-#flower_shirt{
+
+.flower_shirt {
+  background-image: url(../img/flower_shirt.png);
   position:absolute;
-  width: 555px;
-  height:987px;
-  background-image: url(../img/flower_shirt.PNG);
+  width:755px;
+  height:1187px;
 }
-#next_top
+.a_shirt {
+  background-image: url(../img/a_shirt.png);
+  position:absolute;
+  width:755px;
+  height:1187px;
+}
+
+
+#next_top {
+    position:absolute;
+    right:50px;
+    top:400px;
+}
