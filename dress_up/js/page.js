@@ -1,66 +1,51 @@
 window.onload=init;
 
-function init()
-{
+function init() {
     console.log("window has loaded");
     state.i=1;
-    state.j=1;
-
 }
 
 var state = {
     i : 0,
-    j:0,
-    k:0
 };
 
-function nextshirt()
-{
-    console.log("inside function nextshirt");
+function next_top() {
+    console.log("inside function next_top");
     console.log(state.i);
-    var shirt=document.getElementById("clothes");
+    var top=document.getElementById("clothes");
     if(state.i===0){
-    shirt.setAttribute("class","shirt1");
+    top.setAttribute("class","pink_shirt");
         state.i++;
         console.log(state.i);
     }
     else
      if(state.i===1){
-    shirt.setAttribute("class","shirt2");
+    top.setAttribute("class","purple_shirt");
          state.i++;
          console.log(state.i);
     }
     else
      if(state.i===2){
-    shirt.setAttribute("class","shirt3");
+    top.setAttribute("class","yellow_shirt");
+        state.i++;
+        console.log(state.i);
+    }
+    else
+     if(state.i===3){
+    top.setAttribute("class","black_shirt");
+        state.i++;
+        console.log(state.i);
+    }
+    else
+     if(state.i===4){
+    top.setAttribute("class","flower_shirt");
+        state.i++;
+        console.log(state.i);
+    }
+    else
+     if(state.i===5){
+    top.setAttribute("class","a_shirt");
          state.i=0;
     }
-
-}
-
-function nextpants()
-{
-    console.log("inside function nextpants");
-    console.log(state.j);
-    var pants=document.getElementById("pants");
-    if(state.j===0){
-    pants.setAttribute("class","pants1");
-        state.j++;
-        console.log(state.j);
-    }
-    else
-     if(state.j===1){
-    pants.setAttribute("class","pants2");
-         state.j++;
-         console.log(state.j);
-    }
-    else
-     if(state.j===2){
-    pants.setAttribute("class","pants3");
-         state.j=0;
-    }
-
-}
-
 
 }
