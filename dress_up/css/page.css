@@ -62,14 +62,14 @@ a{
 }
 
 .pink_shirt {
-    background-image: url(../img/pink_shirt.png);
+    background-image: url("../img/pink_shirt.png");
     position:absolute;
     width:755px;
     height:1187px;
 }
 
 .purple_shirt {
-    background-image: url(../img/purple_shirt.png);
+    background-image: url("../img/purple_shirt.png");
     position:absolute;
     width:755px;
     height:1187px;
