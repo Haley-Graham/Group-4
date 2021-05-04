@@ -123,4 +123,11 @@ a{
     position:absolute;
     right:50px;
     top:400px;
+	  background-color: white;
+	  color: #d96c94;
+	  border: 2px solid #d96c94;
+	  padding: 10px 27px;
+	  text-align: center;
+	  text-decoration: none;
+	  font-size: 18px;
 }
