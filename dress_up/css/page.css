@@ -1,42 +1,70 @@
 
 body {
-	line-height: 1;
   background-color: #f2c2dc;
 }
-
 h1{
-  font-family: 'Montserrat', sans-serif;
-  font-size:;
-  padding:;
-  color: #adbf26;
-  margin: auto;
-  width: 50%;
+  font-family: 'Chango', cursive;
+  font-size: 80pt;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  color: #d96c94;
 }
 h2{
   font-family: 'Chango', cursive;
   font-size:;
   padding:;
   color: white;
+	text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#topstars img{
+  width: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.directory {
+  display: block;
   margin: auto;
-  width: 50%;
+  text-align: right;
+  padding: 10px;
+}
+#home img {
+  width: 30px;
+  float: right;
+  clear: both;
+}
+#about_us img {
+  width: 30px;
+  float: right;
+  clear: both;
 }
 a{
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
-  font-size:;
-  color: #adbf26;
+  font-size: 18pt;
+  padding:10px;
+  color: #d96c94;
 }
 
 #container {
-    position: absolute;
-    margin:auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
     width: 855px;
     height :1087px;
     bac
 }
 
 #background{
-    position:absolute;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
     width:855px;
     height:1087px;
     left:100px;
@@ -65,9 +93,7 @@ a{
 
 .purple_shirt {
     background-image: url("../img/purple_shirt.png");
-    position:absolute;
-    width:755px;
-    height:1187px;
+
 }
 
 .yellow_shirt {
