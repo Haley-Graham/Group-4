@@ -1,12 +1,17 @@
 <html>
    <head>
-       <link rel="stylesheet" type="text/css" href="css/page.css">
-       <title>Home</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Chango&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/page.css">
-
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dress up</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="css/page.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Chango&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <script src="js/page.js" defer></script>
     </head>
 
 <body>
@@ -34,17 +39,27 @@
            </div>
 <!-- End of banner -->
 
-    <div id="container">
-    <div id="background">
-    <div id="man"> </div>
-    <div id="clothes"> </div>
+   <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6">
+        <div id="droppable" class="ui-widget-header">
+          <img id="model" src="img/a_body.png">
+        </div>
+
+      </div>
+      <div class="col-sm-6">
+        <div id="draggable" class="ui-widget-content">
+          <img class="top" src="img/pink_shirt.png">
+        </div>
+        <div id="draggable1" class="ui-widget-content">
+          <img class="top" src="img/purple_shirt.png">
+        </div>
+        <div id="draggable2" class="ui-widget-content">
+          <img class="top" src="img/yellow_shirt.png">
+        </div>
+      </div>
     </div>
-
-        <input type="button" value="NEXT TOP" id="next_top" onclick="next_top()">
-
-
-    <script src="js/page.js"></script>
-
+  </div>
     </body>
 
 </html>
