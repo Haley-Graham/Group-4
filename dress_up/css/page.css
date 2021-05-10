@@ -1,133 +1,32 @@
-
-body {
-  background-color: #f2c2dc;
+#draggable {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin: 10px 10px 10px 0;
 }
-h1{
-  font-family: 'Chango', cursive;
-  font-size: 80pt;
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-  color: #d96c94;
-}
-h2{
-  font-family: 'Chango', cursive;
-  font-size:;
-  padding:;
-  color: white;
-	text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-#topstars img{
-  width: 200px;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.directory {
-  display: block;
-  margin: auto;
-  text-align: right;
-  padding: 10px;
-}
-#home img {
-  width: 30px;
-  float: right;
-  clear: both;
-}
-#about_us img {
-  width: 30px;
-  float: right;
-  clear: both;
-}
-a{
-  text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18pt;
-  padding:10px;
-  color: #d96c94;
+#droppable {
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin: 10px;
 }
 
-#container {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-    width: 855px;
-    height :1087px;
-    bac
+#model {
+	width: 300px;
 }
 
-#background{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-    width:855px;
-    height:1087px;
-    left:100px;
-    right: 100px;
+.top {
+	width: 300px;
 }
 
-#man {
-    background-image: url("../img/a_body.png");
-    position:absolute;
-    width:755px;
-    height:1187px;
+.row {
+	height: 500px;
+	background-color: pink;
+	margin: 50px;
+	padding-top: 20px;
 }
 
-#clothes {
-    position:absolute;
-    width:755px;
-    height:1187px;
+.col-sm-6 {
+	margin: 100px;
 }
 
-.pink_shirt {
-    background-image: url("../img/pink_shirt.png");
-    position:absolute;
-    width:755px;
-    height:1187px;
-}
-
-.purple_shirt {
-    background-image: url("../img/purple_shirt.png");
-
-}
-
-.yellow_shirt {
-    background-image: url(../img/yellow_shirt.png);
-    position:absolute;
-    width:755px;
-    height:1187px;
-}
-
-.black_shirt {
-  background-image: url(../img/black_shirt.png);
-  position:absolute;
-  width:755px;
-  height:1187px;
-}
-
-.flower_shirt {
-  background-image: url(../img/flower_shirt.png);
-  position:absolute;
-  width:755px;
-  height:1187px;
-}
-
-
-
-#next_top {
-    position:absolute;
-    right:50px;
-    top:400px;
-	  background-color: white;
-	  color: #d96c94;
-	  border: 2px solid #d96c94;
-	  padding: 10px 27px;
-	  text-align: center;
-	  text-decoration: none;
-	  font-size: 18px;
-}
