@@ -1,3 +1,56 @@
+.banner {
+  background-color: #f2c2dc;
+}
+h1{
+  font-family: 'Chango', cursive;
+  font-size: 80pt;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  color: #d96c94;
+}
+h2{
+  font-family: 'Chango', cursive;
+  font-size:;
+  padding:;
+  color: white;
+	text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#topstars img{
+  width: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.directory {
+  display: block;
+  margin: auto;
+  text-align: right;
+  padding: 10px;
+}
+#home img {
+  width: 30px;
+  float: right;
+  clear: both;
+}
+#about_us img {
+  width: 30px;
+  float: right;
+  clear: both;
+}
+a{
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18pt;
+  padding:10px;
+  color: #d96c94;
+}
+
 #draggable {
 	width: 100px;
 	height: 100px;
@@ -21,7 +74,6 @@
 
 .row {
 	height: 500px;
-	background-color: pink;
 	margin: 50px;
 	padding-top: 20px;
 }
@@ -29,4 +81,3 @@
 .col-sm-6 {
 	margin: 100px;
 }
-
