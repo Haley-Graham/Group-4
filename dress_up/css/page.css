@@ -61,10 +61,12 @@ a{
 	padding: 0px;
 	z-index: 2;
   background: transparent;
+  border: none;
 }
 #droppable {
 z-index: -1;
 background: transparent;
+border: none;
 }
 
 #model {
