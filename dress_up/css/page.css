@@ -1,6 +1,9 @@
 .banner {
   background-color: #f2c2dc;
 }
+.container-fluid {
+  background-color: #f2c2dc;
+}
 h1{
   font-family: 'Chango', cursive;
   font-size: 80pt;
@@ -57,9 +60,11 @@ a{
 #draggable6, #draggable7, #draggable8, #draggable9, #draggable10, #draggable11 {
 	padding: 0px;
 	z-index: 2;
+  background: transparent;
 }
 #droppable {
 z-index: -1;
+background: transparent;
 }
 
 #model {
